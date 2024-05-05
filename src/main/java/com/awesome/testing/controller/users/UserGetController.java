@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:8081", "http://127.0.0.1:8081", "https://awesome-testing-react.web.app"}, maxAge = 36000, allowCredentials = "true")
 @RestController
 @RequestMapping("/users")
 @Tag(name = "users")
