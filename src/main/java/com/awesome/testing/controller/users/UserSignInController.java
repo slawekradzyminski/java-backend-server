@@ -19,7 +19,7 @@ import jakarta.validation.Valid;
 
 import static com.awesome.testing.util.TokenCookieUtil.buildTokenCookie;
 
-@CrossOrigin(origins = {"http://localhost:8081", "http://127.0.0.1:8081"}, maxAge = 36000, allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:8081", "http://127.0.0.1:8081", "https://awesome-testing-react.web.app"}, maxAge = 36000, allowCredentials = "true")
 @RestController
 @RequestMapping("/users")
 @Tag(name = "users")
