@@ -32,6 +32,6 @@ public class SwaggerConfig {
                         .contact(new Contact().email("slawekradz@gmail.com")))
                 .addTagsItem(new Tag().name("users").description("Operations about users"))
                 .addSecurityItem(new SecurityRequirement().addList("Authorization", Collections.emptyList()))
-                .servers(List.of(new Server().url("http://localhost:8081").description("Prod server")));
+                .servers(List.of(new Server().url("http://localhost:4001").description("Localhost")));
     }
 }
